@@ -1,0 +1,11 @@
+package home.be.demo;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App {
+	public static void main(String[] args) {
+		// IoC container
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-best.xml");
+	}
+}
